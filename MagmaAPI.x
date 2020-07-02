@@ -65,6 +65,10 @@
     return self;
 }
 
+- (BOOL)magmaEnabled {
+    return [[%c(MagmaPrefs) sharedInstance] boolForKey:@"enabled"];
+}
+
 #pragma mark Connectivity
 
 - (UIColor *)connectivityColorForNameOrIdentifier:(NSString *)name enabledState:(BOOL)enabled {
@@ -162,6 +166,16 @@
 
 - (BOOL)prysmWeatherHideContainer {
     return [[%c(MagmaPrefs) sharedInstance] boolForKey:@"prysmWeatherHideContainer"];
+}
+
+#pragma mark BetterCCXI Fixes
+
+- (BOOL)betterCCXIFix {
+    return [[%c(MagmaPrefs) sharedInstance] boolForKey:@"betterCCXIFix"];
+}
+
+- (BOOL)betterCCXIHideContainer {
+    return [[%c(MagmaPrefs) sharedInstance] boolForKey:@"betterCCXIHideContainer"];
 }
 
 #pragma mark Sliders

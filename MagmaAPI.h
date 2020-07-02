@@ -10,6 +10,8 @@
 + (instancetype)sharedInstance;
 - (instancetype)init;
 
+- (BOOL)magmaEnabled;
+
 // Connectivity
 - (UIColor *)connectivityColorForNameOrIdentifier:(NSString *)name enabledState:(BOOL)enabled;
 - (UIColor *)connectivityContainerBackgroundColor;
@@ -33,6 +35,10 @@
 - (BOOL)powerModuleHideBackground;
 - (BOOL)powerModuleHideContainer;
 - (BOOL)prysmWeatherHideContainer;
+
+// BetterCCXI Fixes
+- (BOOL)betterCCXIFix;
+- (BOOL)betterCCXIHideContainer;
 
 // Sliders
 - (UIColor *)slidersBrightnessBackgroundColor;
