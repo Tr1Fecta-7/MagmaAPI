@@ -1,8 +1,8 @@
 # MagmaAPI
-Developer API for Magma (Evo)
+Developer API for Magma Evo
 
 
-This API was made for Tweak Developers who want to make use of Magma (Evo)'s colors and other methods. The API is easy to use and basically plug and play.
+This API was made for Tweak Developers who want to make use of Magma Evo's colors and other methods. The API is easy to use and basically plug and play.
 
 # How to use MagmaAPI in your tweak?
 
@@ -14,7 +14,7 @@ Get the MagmaAPI sharedInstance and values you need at runtime (Examples):
 ```objc
 
 // Example 1
-UIColor *disabledWifiColor = [[%c(MagmaAPI) sharedInstance] connectivityColorForNameOrIdentifier:@"Wifi" enabledState:NO];
+UIColor *disabledWifiColor = [[%c(MagmaAPI) sharedInstance] connectivityColorForNameOrIdentifier:@"WiFi" enabledState:NO];
 
 // Example 2
 UIColor *enabledBluetoothColor = [[objc_getClass("MagmaAPI") sharedInstance] connectivityColorForNameOrIdentifier:@"Bluetooth" enabledState:YES];
@@ -47,7 +47,7 @@ UIColor *normalLockButtonColor = [[%c(MagmaAPI) sharedInstance] controlCenterMod
 @"Bluetooth": @"CCUIConnectivityBluetoothViewController",
 @"Cellular": @"CCUIConnectivityCellularDataViewController",
 @"Hotspot": @"CCUIConnectivityHotspotViewController",
-@"Wifi": @"CCUIConnectivityWifiViewController"
+@"WiFi": @"CCUIConnectivityWifiViewController"
 
 ```
 

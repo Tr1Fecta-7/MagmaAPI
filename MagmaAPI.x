@@ -59,7 +59,7 @@
             @"Bluetooth": @"CCUIConnectivityBluetoothViewController",
             @"Cellular": @"CCUIConnectivityCellularDataViewController",
             @"Hotspot": @"CCUIConnectivityHotspotViewController",
-            @"Wifi": @"CCUIConnectivityWifiViewController"
+            @"WiFi": @"CCUIConnectivityWifiViewController"
         };
     }
     return self;
