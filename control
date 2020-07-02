@@ -1,0 +1,9 @@
+Package: com.tr1fecta.magmaapi
+Name: MagmaAPI
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: An API for Magma (Evo) for developers
+Maintainer: Tr1Fecta
+Author: Tr1Fecta
+Section: Tweaks
